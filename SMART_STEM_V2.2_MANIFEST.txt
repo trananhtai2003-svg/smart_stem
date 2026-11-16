@@ -1,0 +1,10 @@
+SMART COMPUTER & NETWORK STEM 2.2 – QR LEARNING
+- QR route order corrected: /api/qr/generate-all is registered before /api/qr/{code}.
+- QR codes regenerated automatically on dashboard startup using the current LAN address.
+- Localhost/loopback QR addresses are rejected for phone use.
+- Integrated 5 teacher-provided reference infographic images.
+- Integrated 2 teacher-provided overview videos as supplementary references.
+- Added 9 detailed, device-specific video production scripts/storyboards.
+- Preserved the existing 9 MP4 learning clips and 9 illustrative GLB models; their quality/accuracy limitations are documented.
+- Removed ESP32 workflow from scope.
+See HUONG_DAN_V2.2_CHUAN_HOA_HOC_LIEU.md.

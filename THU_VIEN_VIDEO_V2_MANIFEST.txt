@@ -1,0 +1,22 @@
+THƯ VIỆN VIDEO SMART STEM 2.0 – V2.0
+
+HW-CPU-01 | CPU – Bộ xử lý trung tâm | storage/videos/cpu.mp4
+   Nhận lệnh, giải mã, thực thi, ghi kết quả.
+HW-RAM-01 | RAM – Bộ nhớ truy cập ngẫu nhiên | storage/videos/ram.mp4
+   Nạp dữ liệu, lưu tạm, CPU truy cập; tính khả biến.
+HW-MAIN-01 | Mainboard – Bo mạch chủ | storage/videos/mainboard.mp4
+   Socket CPU, khe RAM, chipset/bus, lưu trữ và ngoại vi.
+HW-HDD-01 | HDD – Ổ đĩa cứng từ | storage/videos/hdd.mp4
+   Đĩa từ quay, đầu đọc/ghi, truy xuất dữ liệu.
+NW-MODEM-01 | Modem – Thiết bị kết nối đường truyền | storage/videos/modem.mp4
+   Đường truyền ISP, xử lý tín hiệu, Ethernet, mạng nội bộ.
+NW-ROUTER-01 | Router – Bộ định tuyến | storage/videos/router.mp4
+   Nhận gói tin, đọc IP đích, tra bảng định tuyến, chuyển tiếp.
+NW-MC-01 | Media Converter – Quang/điện | storage/videos/media_converter_1.mp4
+   Chuyển đổi tín hiệu điện và quang.
+NW-MC-02 | Cặp Media Converter – Mô hình kết nối | storage/videos/media_converter_2.mp4
+   Hai đầu chuyển đổi qua sợi quang.
+NW-NIC-01 | Card mạng – NIC | storage/videos/network_card.mp4
+   Ứng dụng, hệ điều hành, NIC, Ethernet/LAN.
+
+Định dạng MP4 H.264/AAC, 1280x720, thuyết minh tổng hợp bằng giọng đọc tiếng Việt, chữ tiếng Việt trên từng cảnh. Video là hoạt họa sơ đồ giáo dục, không phải footage quay thiết bị thật hoặc mô hình 3D chân thực.

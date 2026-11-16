@@ -1,0 +1,3 @@
+SMART COMPUTER & NETWORK STEM 2.0 – V6.0 ALL-IN-ONE
+Giữ 9 video MP4 + 9 mô hình GLB + 9 quiz; bổ sung ESP32 firmware, QR student view, analytics, CSV export.
+Yêu cầu: cấu hình Wi-Fi/IP và nạp firmware ESP32; AR cần thiết bị/trình duyệt hỗ trợ.

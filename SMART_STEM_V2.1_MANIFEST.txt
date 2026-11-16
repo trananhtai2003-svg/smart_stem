@@ -1,0 +1,9 @@
+SMART COMPUTER & NETWORK STEM 2.1 - QR LEARNING
+Build: 2026-11-16
+Mode: QR self-learning, anonymous usage analytics
+Hardware: no ESP32, no external display/controller required
+Included: FastAPI backend, SQLite seed database, admin dashboard, 9 MP4 videos, 9 GLB models, QR generation and ZIP export, CSV analytics
+Student flow: scan QR -> device learning page -> video/3D/AR -> quick quiz
+Privacy: no login, no class code, no student code, no student name
+Tested in build environment: Python syntax, JavaScript syntax, API smoke tests, ZIP integrity
+Not tested on user's Windows PC, actual mobile devices, school Wi-Fi or physical AR hardware

@@ -1,0 +1,42 @@
+services:
+  smartstem:
+    build: .
+    container_name: smartstem-app
+    restart: unless-stopped
+    environment:
+      PUBLIC_BASE_URL: ${PUBLIC_BASE_URL}
+      DATABASE_URL: sqlite:////app/data/smart_stem.db
+    volumes:
+      - ./data:/app/data
+      - ./storage:/app/storage
+    expose:
+      - "8000"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/api/health', timeout=5)"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+
+  caddy:
+    image: caddy:2
+    container_name: smartstem-caddy
+    restart: unless-stopped
+    environment:
+      SITE_DOMAIN: ${SITE_DOMAIN}
+      ACME_EMAIL: ${ACME_EMAIL}
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      smartstem:
+        condition: service_healthy
+
+volumes:
+  caddy_data:
+  caddy_config:

@@ -1,0 +1,6 @@
+PHỤC HỒI DỮ LIỆU
+1. Dừng ứng dụng: docker compose down
+2. Sao chép bản DB cần phục hồi vào data/smart_stem.db
+3. Giải nén storage_*.tar.gz tại thư mục dự án (giữ đúng cấu trúc storage/)
+4. Chạy lại: docker compose up -d --build
+Không phục hồi đè trước khi tạo thêm một bản sao lưu hiện trạng.
