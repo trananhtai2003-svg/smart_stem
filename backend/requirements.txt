@@ -1,7 +1,7 @@
-# Install the newest releases that pip considers compatible with the
-# Python version already installed on the user's Windows computer.
 fastapi
 uvicorn[standard]
 sqlalchemy
 qrcode[pil]
 python-multipart
+psycopg[binary]
+psycopg2-binary
