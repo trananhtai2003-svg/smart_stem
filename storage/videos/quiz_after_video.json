@@ -1,0 +1,38 @@
+[
+  {
+    "device_code": "HW-CPU-01",
+    "question": "CPU gồm những khối chức năng nào?"
+  },
+  {
+    "device_code": "HW-RAM-01",
+    "question": "Vì sao RAM được gọi là bộ nhớ tạm thời?"
+  },
+  {
+    "device_code": "HW-MAIN-01",
+    "question": "Mainboard có vai trò chính là gì?"
+  },
+  {
+    "device_code": "HW-HDD-01",
+    "question": "Bộ phận nào đọc và ghi dữ liệu trên HDD?"
+  },
+  {
+    "device_code": "NW-MODEM-01",
+    "question": "Modem khác router ở chức năng nào?"
+  },
+  {
+    "device_code": "NW-ROUTER-01",
+    "question": "Router dựa vào thông tin nào để chọn đường đi?"
+  },
+  {
+    "device_code": "NW-MC-01",
+    "question": "Media Converter chuyển đổi giữa những môi trường nào?"
+  },
+  {
+    "device_code": "NW-MC-02",
+    "question": "Vì sao thường cần một bộ chuyển đổi ở mỗi đầu tuyến?"
+  },
+  {
+    "device_code": "NW-NIC-01",
+    "question": "NIC đảm nhiệm vai trò gì trong máy tính?"
+  }
+]
