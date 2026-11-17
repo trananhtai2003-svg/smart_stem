@@ -224,6 +224,10 @@ def get_lan_ip():
 
 @app.get("/api/network-info")
 def network_info():
+    public_url = os.getenv("PUBLIC_BASE_URL", "https://smart-stem.onrender.com")
+    if public_url:
+        return {"lan_ip": "cloud", "suggested_base": public_url.rstrip("/"),
+                "warning": "Máy chủ đang chạy trực tuyến trên đám mây."}
     ip = get_lan_ip()
     return {"lan_ip": ip, "suggested_base": f"http://{ip}:8000",
             "warning": "Điện thoại phải cùng Wi-Fi/LAN với máy chủ; cho phép Python/FastAPI qua Windows Firewall."}
